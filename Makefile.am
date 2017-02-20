@@ -21,4 +21,5 @@
 
 bin_PROGRAMS = xlissaj
 xlissaj_SOURCES = xlissaj.c
+doc_DATA = README.md
 EXTRA_DIST = README.md
