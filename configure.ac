@@ -29,8 +29,8 @@ AC_CONFIG_SRCDIR([xlissaj.c])
 AC_PROG_CC
 
 # Checks for libraries.
-AC_CHECK_LIB([m], [sin])
-AC_CHECK_LIB([X11], [XOpenDisplay])
+AC_CHECK_LIB([m], [sin], , AC_MSG_ERROR([Math library is not found.]))
+AC_CHECK_LIB([X11], [XOpenDisplay], , AC_MSG_ERROR([X11 library is not found.]))
 
 # Checks for header files.
 AC_PATH_X
