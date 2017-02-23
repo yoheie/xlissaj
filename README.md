@@ -1,6 +1,6 @@
 # xlissaj - Draw Lissajous curve on X11
 
-Copyright (c) 2001, 2016 Yohei Endo <yoheie@gmail.com>
+Copyright (c) 2001, 2016-2017 Yohei Endo <yoheie@gmail.com>
 
 This software is provided 'as-is', without any express or implied
 warranty. In no event will the authors be held liable for any damages
